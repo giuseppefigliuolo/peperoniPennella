@@ -1,0 +1,189 @@
+font-face {
+    src: url(img/fonts/Asmara.otf);
+    font-family: Asmara;}
+
+
+* {
+    background-color: #35363A;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    background-color: rgba(0, 255, 255, 0);
+    position: fixed;
+    display: flex;
+    z-index: 30;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3.7rem;
+}
+
+.close-menu {
+    width: 5vh;
+}
+
+.close-menu img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9vh;
+    padding: 2.8vh;
+    margin-top: 1.7vh;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: #35363A;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 70%;
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -595px 1px 158px rgba(17, 17, 17, 0.76);
+    max-width: 630px;
+}
+
+.inner-menu h2 {
+    /* background-color: ; */
+    color: #E64418;
+    align-self: flex-end;
+    padding-right: 7vw;
+    font-size: 55px;
+    margin-top: -3vh;
+    font-family: 'Gotu', sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    background-color: #35363A;
+    padding-top: 4vh;
+    align-self: flex-end;
+    padding-right: 7vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.nasconditi {
+    display: none;
+}
+
+.menu .logo-menu {
+    background-color: #35363A;
+    margin: 150px;
+    margin-top: 52px;
+}
+
+.inner-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #35363A;
+}
+
+.social-container .linea{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 7vw;
+    width: 0.7vw;
+    height: 14vh;
+    background-color: white;
+}
+
+
+.social-container .social-img {
+    width: 50px;
+    display: inline;
+    margin-top: 1vh;
+}
+
+.ico-social-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 9.9vw;
+    margin-bottom: 6.5vh;
+} 
+
+.phone-icon {
+    width: 3.5vh;
+}
+
+.phone-icon img {
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 24vh;
+    margin-top: 12%;
+}
+
+div.menu-icon {
+    width: 3.6vh;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.payoff {
+    font-family: 'Gotu', sans-serif;;
+    color: white;
+    font-size: 39px;
+    padding: 92px 60px;
+    line-height: 145.5%;
+    letter-spacing: 0.666667px;
+    width: 84%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.payoff span {
+    color: #E64418;
+}
+
+.scopri {
+    width: 60%;
+    height: 6.3vh;
+    background-color: #E64418;
+    font-family: 'Gotu', sans-serif;
+    color: white;
+    font-size: 42px;
+    font-family: inherit;
+    border-radius: 83px;
+    border-width: unset;
+    border-style: none;
+    margin-top: 5vh;
+    background: linear-gradient(179.66deg, #E64418 1.2%, #A31E19 26.61%), #570000;
+    cursor: pointer;
+
+}
+
+.camino img{
+    max-width: 100%;
+    filter: drop-shadow(-64px -163px 84px #222);
+    background-color: transparent;
+}
+
+
